@@ -1,7 +1,7 @@
 const express = require('express')
 const app = express()
-// const { PORT = 3000 } = process.env
-const PORT = 3000
+const { PORT = 3000 } = process.env
+//const PORT = 3000
 
 console.log('PORT', PORT);
 
